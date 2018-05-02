@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
+    awesome_print (1.8.0)
     better_errors (2.4.0)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
@@ -160,6 +161,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   capybara
   dotenv (~> 2.0)
   hanami (~> 1.2)
